@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;700&display=swap');
+
+@import './Components/Header/header.scss';
+@import './Components/Main/main.scss';
+@import './Components/Footer/footer.scss';
+
+@import './Components/Header/header-media.scss';
+@import './Components/Main/main-media.scss';
+@import './Components/Footer/footer-media.scss';
+
+
+* { 
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+  
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.item__link {
+  text-decoration: none;
+  color: #E4E5EA;
+  position: relative;
+}
+
+.item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.item__link {
+  text-decoration: none;
+  color: #E4E5EA;
+  position: relative;
+}
+
+.item__link::before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0px;
+  height: 1px;
+  background: #E4E5EA;
+  transition: width .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.item__link:hover:before {
+  width: 100%;
+}
+
+.item__margin:not(:last-child) {
+  margin: 0 0 10px 0;
+}
