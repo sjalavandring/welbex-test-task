@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/welbex-test-task.github.io/static/css/main.b63a7953.css",
+    "main.js": "/welbex-test-task.github.io/static/js/main.bff790c0.js",
+    "index.html": "/welbex-test-task.github.io/index.html",
+    "main.b63a7953.css.map": "/welbex-test-task.github.io/static/css/main.b63a7953.css.map",
+    "main.bff790c0.js.map": "/welbex-test-task.github.io/static/js/main.bff790c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b63a7953.css",
+    "static/js/main.bff790c0.js"
+  ]
+}
